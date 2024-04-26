@@ -1,0 +1,15 @@
+.idea/
+
+.cproject
+
+.mxproject
+
+.project
+
+CMakeLists_template.txt
+
+Lvgl/demos
+
+Lvgl/examples
+
+Lvgl/src
