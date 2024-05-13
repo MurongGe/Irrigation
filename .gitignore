@@ -7,9 +7,12 @@
 .project
 
 CMakeLists_template.txt
+CMakeLists.txt
 
-Lvgl/demos
+bishe.ioc
 
-Lvgl/examples
+Lvgl/
 
-Lvgl/src
+cmake-build-debug/
+
+.vscode/

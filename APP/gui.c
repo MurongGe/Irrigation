@@ -180,12 +180,12 @@ void gui_init() {
   lv_obj_align(img_sicau, LV_ALIGN_TOP_MID, 0, 5);
 
   label_title = lv_label_create(init_page);
-  lv_label_set_text_fmt(label_title, "智能盆栽灌溉系统");
+  lv_label_set_text_fmt(label_title, "");
   lv_obj_set_style_text_font(label_title, &lv_font_zhcn_32, LV_STATE_DEFAULT);
   lv_obj_align(label_title, LV_ALIGN_CENTER, 0, 55);
 
   label_user = lv_label_create(init_page);
-  lv_label_set_text_fmt(label_user, "四川农业大学周顺心原创");
+  lv_label_set_text_fmt(label_user, "");
   lv_obj_set_style_text_font(label_user, &lv_font_zhcn_24, LV_STATE_DEFAULT);
   lv_obj_align(label_user, LV_ALIGN_CENTER, 0, 100);
 
@@ -226,10 +226,10 @@ void wifi_page_create(void) {
   lv_obj_align(textarea_wifi_name, LV_ALIGN_CENTER, 0, -50);
   lv_textarea_set_placeholder_text(textarea_wifi_name, "wifi name");
   lv_textarea_set_one_line(textarea_wifi_name, true);
-  lv_textarea_set_text(textarea_wifi_name, "honor-play4pro");
+  lv_textarea_set_text(textarea_wifi_name, "");
   textarea_wifi_psd = lv_textarea_create(wifi_page);
   lv_obj_set_width(textarea_wifi_psd, 200);
-  lv_textarea_set_text(textarea_wifi_psd, "18384546746");
+  lv_textarea_set_text(textarea_wifi_psd, "");
   lv_obj_align(textarea_wifi_psd, LV_ALIGN_CENTER, 0, 0);
   lv_textarea_set_placeholder_text(textarea_wifi_psd, "wifi password");
   lv_textarea_set_one_line(textarea_wifi_psd, true);
