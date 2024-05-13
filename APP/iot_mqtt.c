@@ -16,11 +16,11 @@ const char CHAR_RST[] = "AT+RST\r\n";
 const char CHAR_CWMODE[] = "AT+CWMODE=1\r\n";
 const char CHAR_ATE0[] = "ATE0\r\n";
 const char CHAR_CIPSNTPCFG[] = "AT+CIPSNTPCFG=1,8,\"ntp1.aliyun.com\"\r\n";
-const char CHAR_MQTTUSERCFG1[] = "AT+MQTTUSERCFG=0,1,\"NULL\",\"esp8266dev&idirU2f0dPU\",\"cb175a5fce4168b51e96f18cd9d8f796617c523864701cba0ab18fda252ec962\",0,0,\"\"\r\n";
-const char CHAR_MQTTUSERCFG2[] = "AT+MQTTCLIENTID=0,\"idirU2f0dPU.esp8266dev|securemode=2\\,signmethod=hmacsha256\\,timestamp=1713268169733|\"\r\n";
-const char CHAR_MQTTCNNT[] = "AT+MQTTCONN=0,\"iot-06z00i7q767j4xt.mqtt.iothub.aliyuncs.com\",1883,1\r\n";
-const char CHAR_MQTTSUB[] = "AT+MQTTSUB=0,\"/sys/idirU2f0dPU/esp8266dev/thing/service/property/set\",1\r\n";
-const char CHAR_MQTTPUB_TEST[] = "AT+MQTTPUB=0,\"/sys/idirU2f0dPU/esp8266dev/thing/event/property/post\",\"test\",1,0\r\n";
+const char CHAR_MQTTUSERCFG1[] = "AT+MQTTUSERCFG=0,1,\"NULL\",\"用户名\",\"用户密码\",0,0,\"\"\r\n";
+const char CHAR_MQTTUSERCFG2[] = "AT+MQTTCLIENTID=0,\"你的clientID\"\r\n";
+const char CHAR_MQTTCNNT[] = "AT+MQTTCONN=0,\"你的mqttHostURL\",1883,1\r\n";
+const char CHAR_MQTTSUB[] = "AT+MQTTSUB=0,\"订阅主题\",1\r\n";
+const char CHAR_MQTTPUB_TEST[] = "AT+MQTTPUB=0,\"推送主题\",\"test\",1,0\r\n";
 
 /// 整数幂函数
 uint32_t indexINT(uint8_t b, uint8_t e) {
