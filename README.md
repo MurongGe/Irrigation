@@ -1,1 +1,1 @@
-This is a graduation project based on STM32
+This is a project based on STM32
